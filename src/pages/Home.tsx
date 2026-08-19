@@ -2,12 +2,12 @@ import { motion } from 'motion/react'
 import { Link } from 'react-router-dom'
 import { SectionHeading } from '@/components/ui/SectionHeading'
 import { buttonStyles } from '@/components/ui/Button'
-import { ProjectCard } from '@/components/projects/ProjectCard'
+// import { ProjectCard } from '@/components/projects/ProjectCard'
 import { site } from '@/data/site'
-import { projects } from '@/data/projects'
+// import { projects } from '@/data/projects'
 import { skills } from '@/data/skills'
 
-const featuredProjects = projects.filter((project) => project.featured)
+// const featuredProjects = projects.filter((project) => project.featured)
 
 export function Home() {
   return (
